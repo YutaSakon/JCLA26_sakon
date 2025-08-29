@@ -1,5 +1,10 @@
 #必要なパッケージ
 library(GBClust)
+"""
+事前に以下のインストールが必要
+install.packages("devtools")
+devtools::install_github("tommasorigon/GBClust") 
+"""
 library(mcclust)
 library(ggplot2)
 library(FactoMineR)
